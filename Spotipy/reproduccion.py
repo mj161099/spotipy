@@ -1,6 +1,6 @@
 import threading
 import pygame
-from cancion import Cancion
+from .cancion import Cancion
 
 class Reproduccion:
     def __init__(self):

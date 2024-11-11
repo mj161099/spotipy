@@ -1,4 +1,4 @@
-from cancion import Cancion
+from .cancion import Cancion
 
 class Playlist:
     def __init__(self, nombre, usuario_id):

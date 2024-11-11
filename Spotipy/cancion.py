@@ -1,4 +1,4 @@
-from media import Media
+from .media import Media
 
 class Cancion(Media):
     def __init__(self, titulo, artista, album, ruta, duracion):

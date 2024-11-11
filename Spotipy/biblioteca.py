@@ -1,4 +1,4 @@
-from artista import Artista
+from .artista import Artista
 
 class Biblioteca:
     def __init__(self, usuario):

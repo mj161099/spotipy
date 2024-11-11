@@ -1,4 +1,4 @@
-from playlist import Playlist
+from .playlist import Playlist
 
 class Usuario:
     def __init__(self, usuario_id, nombre, email, contraseña):

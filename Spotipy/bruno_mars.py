@@ -1,6 +1,6 @@
-from album import Album
-from cancion import Cancion
-from artista import Artista
+from .album import Album
+from .cancion import Cancion
+from .artista import Artista
 
 class BrunoMars(Artista):
     def __init__(self):

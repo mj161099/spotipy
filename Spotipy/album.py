@@ -1,5 +1,5 @@
-from cancion import Cancion
-from media import Media
+from .cancion import Cancion
+from .media import Media
 
 class Album(Media):
     def __init__(self, titulo, artista, fecha_lanzamiento):

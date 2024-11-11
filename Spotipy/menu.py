@@ -1,13 +1,13 @@
-from autenticacion_usuario import AutenticacionUsuario
-from reproduccion import Reproduccion
-from cancion import Cancion
-from biblioteca import Biblioteca
-from artista import Artista
-from album import Album
-from playlist import Playlist
-from luis_fonsi import LuisFonsi
-from bruno_mars import BrunoMars
-from mariah_carey import MariahCarey
+from .autenticacion_usuario import AutenticacionUsuario
+from .reproduccion import Reproduccion
+from .cancion import Cancion
+from .biblioteca import Biblioteca
+from .artista import Artista
+from .album import Album
+from .playlist import Playlist
+from .luis_fonsi import LuisFonsi
+from .bruno_mars import BrunoMars
+from .mariah_carey import MariahCarey
 
 
 """ Encapsular todas las funcionalidades del menu """

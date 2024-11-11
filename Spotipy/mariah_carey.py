@@ -1,6 +1,6 @@
-from album import Album
-from cancion import Cancion
-from artista import Artista
+from .album import Album
+from .cancion import Cancion
+from .artista import Artista
 
 class MariahCarey (Artista):
 	def __init__(self):

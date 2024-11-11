@@ -1,5 +1,5 @@
-from album import Album
-from cancion import Cancion
+from .album import Album
+from .cancion import Cancion
 
 class Artista:
     def __init__(self, nombre):
