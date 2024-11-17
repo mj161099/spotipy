@@ -1,0 +1,145 @@
+{
+  "artistas": [
+    {
+      "nombre": "Luis Fonsi",
+      "albums": [
+        {
+          "titulo": "El viaje",
+          "artista": "Luis Fonsi",
+          "lanzamiento": "Ultimo lanzamiento",
+          "canciones": [
+            {
+              "titulo": "Roma",
+              "artista": "Luis Fonsi",
+              "album": "El viaje",
+              "archivo": "data/Luis Fonsi, Laura Pausini - Roma (Official Video).wav",
+              "duracion": 200
+            },
+            {
+              "titulo": "Andalucia",
+              "artista": "Luis Fonsi",
+              "album": "El viaje",
+              "archivo": "data/Luis Fonsi - Andalucía (Visualizer).wav",
+              "duracion": 198
+            }
+          ]
+        },
+        {
+          "titulo": "8",
+          "artista": "Luis Fonsi",
+          "lanzamiento": "2014",
+          "canciones": [
+            {
+              "titulo": "Que Quieres De Mi",
+              "artista": "Luis Fonsi",
+              "album": "8",
+              "archivo": "data/Que Quieres De Mi - Luis Fonsi 8 (Letra).wav",
+              "duracion": 260
+            },
+            {
+              "titulo": "Llegaste Tú",
+              "artista": "Luis Fonsi",
+              "album": "8",
+              "archivo": "data/Luis Fonsi - Llegaste Tú.wav",
+              "duracion": 211
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Bruno Mars",
+      "albums": [
+        {
+          "titulo": "24K Magic",
+          "artista": "Bruno Mars",
+          "lanzamiento": "2016",
+          "canciones": [
+            {
+              "titulo": "That´s What I Like",
+              "artista": "Bruno Mars",
+              "album": "24K Magic",
+              "archivo": "data/That’s What I Like [Official Music Video] (1).wav",
+              "duracion": 190
+            },
+            {
+              "titulo": "Versace on the Floor",
+              "artista": "Bruno Mars",
+              "album": "24K Magic",
+              "archivo": "data/Versace on the Floor (Single).wav",
+              "duracion": 250
+            }
+          ]
+        },
+        {
+          "titulo": "Unorthodox Jukebox",
+          "artista": "Bruno Mars",
+          "lanzamiento": "2012",
+          "canciones": [
+            {
+              "titulo": "Locked out of Heaven",
+              "artista": "Bruno Mars",
+              "album": "Unorthodox Jukebox",
+              "archivo": "data/Bruno Mars - Locked Out Of Heaven (Official Music Video).wav",
+              "duracion": 210
+            },
+            {
+              "titulo": "When I Was Your Man",
+              "artista": "Bruno Mars",
+              "album": "Unorthodox Jukebox",
+              "archivo": "data/Bruno Mars - When I Was Your Man.wav",
+              "duracion": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Mariah Carey",
+      "albums": [
+        {
+          "titulo": "Butterfly",
+          "artista": "Mariah Carey",
+          "lanzamiento": "1997",
+          "canciones": [
+            {
+              "titulo": "My All",
+              "artista": "Mariah Carey",
+              "album": "Butterfly",
+              "archivo": "data/My All.wav",
+              "duracion": 210
+            },
+            {
+              "titulo": "Close My Eyes",
+              "artista": "Mariah Carey",
+              "album": "Butterfly",
+              "archivo": "data/Close My Eyes.wav",
+              "duracion": 252
+            }
+          ]
+        },
+        {
+          "titulo": "Music Box",
+          "artista": "Mariah Carey",
+          "lanzamiento": "1993",
+          "canciones": [
+            {
+              "titulo": "Hero",
+              "artista": "Mariah Carey",
+              "album": "Music Box",
+              "archivo": "data/Mariah Carey - Hero.wav",
+              "duracion": 250
+            },
+            {
+              "titulo": "Without You",
+              "artista": "Mariah Carey",
+              "album": "Music Box",
+              "archivo": "data/Mariah Carey - Without You.wav",
+              "duracion": 202
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
