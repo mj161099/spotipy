@@ -5,10 +5,7 @@ from .biblioteca import Biblioteca
 from .artista import Artista
 from .album import Album
 from .playlist import Playlist
-from .luis_fonsi import LuisFonsi
-from .bruno_mars import BrunoMars
-from .mariah_carey import MariahCarey
-
+from .artista_manager import ArtistaManager
 
 """ Encapsular todas las funcionalidades del menu """
 class Menu:
@@ -110,8 +107,9 @@ class Menu:
             print("Por favor, inicie sesión primero.")
 
     def agregar_artista_biblioteca(self):
-        # Lista de instancias de artistas predefinidos
-        artistas = [BrunoMars(), LuisFonsi(), MariahCarey()]
+        # Lista de instancias de artistas desde JSON
+        artista_manager = ArtistaManager('artistas.json')
+        artistas = artista_manager.get_artistas()
 
         print("Elige más artistas que te gusten.")
         while artistas:  # Continuar mientras haya artistas disponibles
@@ -186,7 +184,8 @@ class Menu:
 
     def seleccionar_artista(self):
         # Lista de instancias de artistas predefinidos
-        artistas = [BrunoMars(), LuisFonsi(), MariahCarey()]
+        artista_manager = ArtistaManager('artistas.json')
+        artistas = artista_manager.get_artistas()
 
         print("\nSeleccione un artista de la lista:")
         for i, artista in enumerate(artistas, 1):
