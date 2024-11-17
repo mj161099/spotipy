@@ -1,12 +1,5 @@
-# Importar módulos y clases relevantes 
+#Importar modulos y clases relevantes
 
-from .album import Album  
-from .artista import Artista 
-from .autenticacion_usuario import AutenticacionUsuario 
-from .biblioteca import Biblioteca 
-from .cancion import Cancion 
-from .media import Media 
-from .menu import Menu 
-from .playlist import Playlist 
-from .reproduccion import Reproduccion 
-from .usuario import Usuario
+from spotipy.UI.menu import Menu
+from spotipy.models.artista import Artista
+from spotipy.models.usuario import Usuario
